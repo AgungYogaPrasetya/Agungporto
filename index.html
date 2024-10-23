@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Agung Yoga Prasetya</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #2C3E50; /* Dark Gray */
+            color: #FFFFFF; /* White */
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        header {
+            background: #1F3A93; /* Navy Blue */
+            color: #FFFFFF;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #D35400 3px solid; /* Burnt Orange */
+        }
+
+        header a {
+            color: #FFFFFF;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+
+        header ul {
+            padding: 0;
+            list-style: none;
+            float: right;
+            margin-top: 0;
+        }
+
+        header ul li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+
+        header .logo {
+            float: left;
+        }
+
+        header .logo h1 {
+            margin: 0;
+        }
+
+        #showcase {
+            min-height: 400px;
+            background: #1F3A93; /* Navy Blue */
+            color: #FFFFFF;
+            text-align: center;
+            padding-top: 100px;
+        }
+
+        #showcase h1 {
+            font-size: 55px;
+            margin-top: 0;
+        }
+
+        .about, .skills, .projects {
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .about p {
+            font-size: 18px;
+        }
+
+        .biodata-table {
+            margin: 20px auto;
+            width: 50%;
+            background-color: #35424a; /* Slightly lighter navy */
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .biodata-table td {
+            padding: 10px;
+            color: #BDC3C7; /* Silver */
+            font-size: 16px;
+        }
+
+        .hobbies {
+            margin: 20px auto;
+            width: 50%;
+            background-color: #35424a; /* Slightly lighter navy */
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .hobbies ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .hobbies ul li {
+            background: #D35400; /* Burnt Orange */
+            color: #FFFFFF;
+            padding: 10px;
+            margin: 5px;
+        }
+
+        .skills h2, .projects h2 {
+            margin-top: 0;
+        }
+
+        .skills ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .skills ul li {
+            background: #D35400; /* Burnt Orange */
+            color: #FFFFFF;
+            padding: 10px;
+            margin: 5px;
+            display: inline-block;
+        }
+
+        .projects ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .projects ul li {
+            background: #BDC3C7; /* Silver */
+            color: #2C3E50; /* Dark Gray */
+            padding: 10px;
+            margin: 5px;
+            display: inline-block;
+        }
+
+        footer {
+            background: #1F3A93; /* Navy Blue */
+            color: #FFFFFF;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Agung Yoga Prasetya</h1>
+            </div>
+            <ul>
+                <li><a href="#about">Tentang Saya</a></li>
+                <li><a href="#skills">Keahlian</a></li>
+                <li><a href="#projects">Proyek</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>Selamat Datang di Portofolio Saya</h1>
+            <p>Berkenalan lebih lanjut dengan saya di bawah ini!</p>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <h2>Tentang Saya</h2>
+            <p>Nama saya Agung Yoga Prasetya. Saya seorang siswa di SMA Budi Luhur.</p>
+
+            <h2>Biodata</h2>
+            <table class="biodata-table">
+                <tr>
+                    <td>Nama</td>
+                    <td>Agung Yoga Prasetya</td>
+                </tr>
+                <tr>
+                    <td>Tempat, Tanggal Lahir</td>
+                    <td>Klaten, 6 Maret 2007</td>
+                </tr>
+                <tr>
+                    <td>Alamat</td>
+                    <td>JL. Karyawan 3, Karang Tengah</td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>blsma.22231007@budiluhur.sch.id</td>
+                </tr>
+                <tr>
+                    <td>No. Telepon</td>
+                    <td>082227032705</td>
+                </tr>
+                <tr>
+                    <td>Pendidikan</td>
+                    <td>SMA</td>
+                </tr>
+            </table>
+
+            <h2>Hobi</h2>
+            <div class="hobbies">
+                <ul>
+                    <li>Bermain Bulu Tangkis</li>
+                    <li>Traveling</li>
+                    <li>Bemain Game</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2>Keahlian</h2>
+            <ul>
+                <li>Fotografi</li>
+                <li>Editing</li>
+                <li>IT</li>       
+            </ul>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2>Projek</h2>
+            <p>Beberapa projek yang telah saya kerjakan:</p>
+            <ul>
+                <li>Projek Karya Tulis</li>
+                <li>Projek Maket</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>Hubungi saya di: blsma.22231007@budiluhur.sch.id | © 2024 Agung Yoga Prasetya</p>
+    </footer>
+</body>
+</html>
